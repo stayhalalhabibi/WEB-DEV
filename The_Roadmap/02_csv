@@ -1,0 +1,47 @@
+                 🌱 PLANT E-COMMERCE
+                         │
+                         ▼
+                    React Frontend
+                         │
+                         │ HTTP Request
+                         ▼
+                  Express.js Server
+                         │
+                         ▼
+                      Routes
+                         │
+                         ▼
+                    Controllers
+                         │
+                         ▼
+                     Models
+                         │
+                         ▼
+                      Mongoose
+                         │
+                         ▼
+                    MongoDB Atlas
+
+
+
+For example, when the customer clicks "View Plants":
+
+React
+  ↓
+GET /api/plants
+  ↓
+plantRoutes.js
+  ↓
+plantController.js
+  ↓
+Plant.js
+  ↓
+MongoDB
+  ↓
+Plant data
+  ↓
+Controller
+  ↓
+Express
+  ↓
+React

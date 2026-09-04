@@ -1,0 +1,94 @@
+roadmap
+
+We'll build it in this order:
+
+Phase 1 — Backend Foundation
+Node.js
+Express
+Server
+Middleware
+Environment variables
+API basics
+Phase 2 — Database
+MongoDB
+MongoDB Atlas
+Mongoose
+Schemas
+Models
+CRUD
+Phase 3 — Plant APIs
+GET     /api/plants
+GET     /api/plants/:id
+POST    /api/plants
+PUT     /api/plants/:id
+DELETE  /api/plants/:id
+Phase 4 — Authentication
+Register
+Login
+Logout
+JWT
+Password hashing
+User roles
+Phase 5 — E-Commerce
+Products
+Categories
+Cart
+Wishlist
+Orders
+Reviews
+Stock
+Phase 6 — Admin
+Admin Login
+Add Plant
+Update Plant
+Delete Plant
+Manage Orders
+Manage Users
+Phase 7 — Frontend
+React
+     ↓
+Navbar
+Home
+Plants
+Product Details
+Cart
+Checkout
+Login
+Register
+User Dashboard
+Admin Dashboard
+Phase 8 — Connect Everything
+React
+  ↓
+REST API
+  ↓
+Express
+  ↓
+Mongoose
+  ↓
+MongoDB
+Phase 9 — Deployment
+
+Finally:
+
+Frontend → Deployment
+Backend  → Deployment
+Database → MongoDB Atlas
+🌿 Today's target
+
+Don't jump into products, authentication, or payments yet.
+
+First milestone:
+
+✅ Create plant-ecommerce
+✅ Create backend
+✅ npm init
+✅ Install Express
+✅ Create server.js
+✅ Run server
+✅ Create .env
+⬜ Connect MongoDB
+⬜ Create Plant model
+⬜ Create Plant API
+
+Next, we'll connect our Node/Express backend to MongoDB Atlas and create our first Plant model. That's where our actual e-commerce database starts
